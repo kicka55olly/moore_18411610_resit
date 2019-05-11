@@ -1,0 +1,68 @@
+p {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+text {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 50vw;
+	text-align: center;
+}
+
+img {
+	width: 25vw;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+	width: 100vw - 20px; /*Makes the width of the box fill the whole screen, no matter what size. The 20px corrects for automatic padding*/
+	border: 5px #000000 solid; /*Gives a thick black border around the title*/
+	font-size: 8vw; /*Scales font size depending on the screen width*/
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	display: flex; /*This defines a flex container*/	
+	justify-content: center;
+	align-items: flex-stretch; /*Makes every box stick to the top*/
+	color: black;  
+	padding: 10px; /*Adds 10 pixels of padding around the whole container*/
+}
+
+.box_style {
+	border: 1px #000000 solid; /*This adds a 1 pixel solid black border around each box*/
+	padding-left: 10px; /*Adds some side padding so the text doesn't touch the border*/
+	padding-right: 10px;
+	width: 28vw; /*Gives a width for each box 30% of the screen width*/
+}
+
+.column {
+	display: flex;
+	flex-direction: column; /*Makes this container a column, not a row*/
+	align-items: center;
+}
+
+.menubar {
+	display: flex;
+	background-color: #00ADE0; /*Gives the menubar a blue background*/
+	height: 40px; /*The thickness of the menubar*/
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+}
+
+.menu_button {
+	font-size: 3vw;
+	margin-left: 12vw;
+}
+
+/*hyperlink styles*/
+a {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
